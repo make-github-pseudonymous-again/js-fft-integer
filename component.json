@@ -1,0 +1,11 @@
+{
+	"description": "Integer Fast Fourier Transform code bricks for JavaScript",
+	"version": "0.0.0",
+	"scripts": [
+		"js/dist/fft-integer.js"
+	],
+	"license": "AGPL-3.0",
+	"repo": "aureooms/js-fft-integer",
+	"name": "aureooms-js-fft-integer",
+	"main": "js/dist/fft-integer.js"
+}
