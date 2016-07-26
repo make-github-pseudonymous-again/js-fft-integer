@@ -33,7 +33,7 @@
 	},
 	"name": "aureooms-js-fft-integer",
 	"devDependencies": {
-		"aureooms-node-package": "^4.2.3"
+		"aureooms-node-package": "^6.0.1"
 	},
 	"main": "js/dist/fft-integer.js"
 }
