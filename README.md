@@ -3,7 +3,7 @@
 
 Integer Fast Fourier Transform algorithms for JavaScript.
 See [docs](https://aureooms.github.io/js-fft-integer).
-Parent is [@aureooms/js-algorithms](https://aureooms.github.io/js-algorithms).
+Parent is [@aureooms/js-algorithms](https://github.com/aureooms/js-algorithms).
 
 [![NPM license](http://img.shields.io/npm/l/aureooms-js-fft-integer.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-fft-integer/master/LICENSE)
 [![NPM version](http://img.shields.io/npm/v/aureooms-js-fft-integer.svg?style=flat)](https://www.npmjs.org/package/aureooms-js-fft-integer)
@@ -98,4 +98,4 @@ require( [ "aureooms-js-fft-integer" ] , function ( fftinteger ) { ... } ) ;
 
 ## Related
 
-  - [@aureooms/js-fft](https://aureooms.github.io/js-fft)
+  - [@aureooms/js-fft](https://github.com/aureooms/js-fft)
