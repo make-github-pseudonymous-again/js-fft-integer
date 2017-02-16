@@ -13,10 +13,10 @@ if ( typeof exports === "object" ) {
 	definition( exports ) ;
 }
 else if ( typeof define === "function" && define.amd ) {
-	define( "aureooms-js-fft-integer" , [ ] , function ( ) { return definition( { } ) ; } ) ;
+	define( "@aureooms/js-fft-integer" , [ ] , function ( ) { return definition( { } ) ; } ) ;
 }
 else if ( typeof window === "object" && typeof window.document === "object" ) {
 	definition( window["fftinteger"] = { } ) ;
 }
-else console.error( "unable to detect type of module to define for aureooms-js-fft-integer") ;
+else console.error( "unable to detect type of module to define for @aureooms/js-fft-integer") ;
 } )( ) ;
