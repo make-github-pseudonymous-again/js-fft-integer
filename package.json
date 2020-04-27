@@ -22,9 +22,6 @@
     "js",
     "transform"
   ],
-  "spm": {
-    "main": "js/dist/fft-integer.js"
-  },
   "dependencies": {},
   "repository": {
     "url": "https://github.com/aureooms/js-fft-integer.git",
