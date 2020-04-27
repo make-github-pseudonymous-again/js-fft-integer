@@ -61,5 +61,15 @@
         "sourceMaps": "inline"
       }
     }
+  },
+  "ava": {
+    "files": [
+      "test/src/**/*"
+    ],
+    "require": [
+      "@babel/polyfill",
+      "@babel/register"
+    ],
+    "timeout": "1m"
   }
 }
