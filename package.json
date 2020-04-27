@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "homepage": "http://aureooms.github.io/js-fft-integer/",
   "scripts": {
-    "test": "./node_modules/.bin/aureooms-node-package-test",
+    "test": "ava",
     "build": "./node_modules/.bin/aureooms-node-package-build",
     "esdoc": "esdoc"
   },
@@ -39,7 +39,7 @@
     "@babel/polyfill": "7.8.7",
     "@babel/preset-env": "7.9.5",
     "@babel/register": "7.9.0",
-    "ava": "3.7.0",
+    "ava": "3.8.1",
     "coveralls": "3.0.11",
     "esdoc": "1.1.0",
     "esdoc-inject-script-plugin": "1.0.0",
