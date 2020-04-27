@@ -5,7 +5,8 @@
   "scripts": {
     "test": "ava",
     "build": "rm -rf lib && babel src -d lib",
-    "esdoc": "esdoc"
+    "esdoc": "esdoc",
+    "prepare": "npm run build"
   },
   "author": "aureooms",
   "keywords": [
