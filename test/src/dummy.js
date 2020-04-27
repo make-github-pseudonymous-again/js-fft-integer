@@ -1,6 +1,8 @@
+import test from 'ava';
+import * as fftinteger from '../../src';
 
-test( "dummy" , function ( ) {
+test( "dummy" , t => {
 
-	ok( false , "tests implemented" ) ;
+	t.truthy( false , "tests implemented" ) ;
 
 } ) ;
