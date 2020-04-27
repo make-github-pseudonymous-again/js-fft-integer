@@ -5,7 +5,7 @@
   "scripts": {
     "test": "./node_modules/.bin/aureooms-node-package-test",
     "build": "./node_modules/.bin/aureooms-node-package-build",
-    "doc": "./node_modules/.bin/groc"
+    "esdoc": "esdoc"
   },
   "author": "aureooms",
   "keywords": [
