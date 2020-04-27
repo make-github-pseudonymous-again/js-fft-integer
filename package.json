@@ -7,7 +7,8 @@
     "build": "rm -rf lib && babel src -d lib",
     "esdoc": "esdoc",
     "prepare": "npm run build",
-    "cover": "nyc --reporter=lcov npm test"
+    "cover": "nyc --reporter=lcov npm test",
+    "release": "np"
   },
   "author": "aureooms",
   "keywords": [
