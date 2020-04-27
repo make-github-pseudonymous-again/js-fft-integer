@@ -1,55 +1,72 @@
-<!DOCTYPE html><html lang="en"><head><title>index</title></head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><meta name="groc-relative-root" content=""><meta name="groc-document-path" content="index"><meta name="groc-project-path" content="README.md"><meta name="groc-github-url" content="https://github.com/aureooms/js-fft-integer"><link rel="stylesheet" type="text/css" media="all" href="assets/style.css"><script type="text/javascript" src="assets/behavior.js"></script><body><div id="meta"><div class="file-path"><a href="https://github.com/aureooms/js-fft-integer/blob/master/README.md">README.md</a></div></div><div id="document"><div class="segment"><div class="comments "><div class="wrapper"><h1 id="-js-fft-integer-http-aureooms-github-io-js-fft-integer-"><a href="http://aureooms.github.io/js-fft-integer">js-fft-integer</a></h1>
-<p>Integer Fast Fourier Transform code bricks for JavaScript</p>
-<p><a href="https://raw.githubusercontent.com/aureooms/js-fft-integer/master/LICENSE"><img src="http://img.shields.io/npm/l/aureooms-js-fft-integer.svg?style=flat" alt="NPM license"></a>
-<a href="https://www.npmjs.org/package/aureooms-js-fft-integer"><img src="http://img.shields.io/npm/v/aureooms-js-fft-integer.svg?style=flat" alt="NPM version"></a>
-<a href="http://bower.io/search/?q=aureooms-js-fft-integer"><img src="http://img.shields.io/bower/v/aureooms-js-fft-integer.svg?style=flat" alt="Bower version"></a>
-<a href="https://travis-ci.org/aureooms/js-fft-integer"><img src="http://img.shields.io/travis/aureooms/js-fft-integer.svg?style=flat" alt="Build Status"></a>
-<a href="https://coveralls.io/r/aureooms/js-fft-integer"><img src="http://img.shields.io/coveralls/aureooms/js-fft-integer.svg?style=flat" alt="Coverage Status"></a>
-<a href="https://david-dm.org/aureooms/js-fft-integer#info=dependencies"><img src="http://img.shields.io/david/aureooms/js-fft-integer.svg?style=flat" alt="Dependencies Status"></a>
-<a href="https://david-dm.org/aureooms/js-fft-integer#info=devDependencies"><img src="http://img.shields.io/david/dev/aureooms/js-fft-integer.svg?style=flat" alt="devDependencies Status"></a>
-<a href="https://codeclimate.com/github/aureooms/js-fft-integer"><img src="http://img.shields.io/codeclimate/github/aureooms/js-fft-integer.svg?style=flat" alt="Code Climate"></a>
-<a href="https://www.npmjs.org/package/aureooms-js-fft-integer"><img src="http://img.shields.io/npm/dm/aureooms-js-fft-integer.svg?style=flat" alt="NPM downloads per month"></a>
-<a href="https://github.com/aureooms/js-fft-integer/issues"><img src="http://img.shields.io/github/issues/aureooms/js-fft-integer.svg?style=flat" alt="GitHub issues"></a>
-<a href="http://inch-ci.org/github/aureooms/js-fft-integer"><img src="http://inch-ci.org/github/aureooms/js-fft-integer.svg?branch=master&amp;style=shields" alt="Inline docs"></a></p>
-<p>Can be managed through <a href="https://github.com/jspm/jspm-cli">jspm</a>,
-<a href="https://github.com/duojs/duo">duo</a>,
-<a href="https://github.com/componentjs/component">component</a>,
-<a href="https://github.com/bower/bower">bower</a>,
-<a href="https://github.com/ender-js/Ender">ender</a>,
-<a href="https://github.com/caolan/jam">jam</a>,
-<a href="https://github.com/spmjs/spm">spm</a>,
-and <a href="https://github.com/npm/npm">npm</a>.</p>
-<h2 id="install">Install</h2>
-<h3 id="jspm">jspm</h3>
-<pre><code class="lang-terminal">jspm install github:aureooms/js-fft-integer
-# or
-jspm install npm:aureooms-js-fft-integer</code></pre>
-<h3 id="duo">duo</h3>
-<p>No install step needed for duo!</p>
-<h3 id="component">component</h3>
-<pre><code class="lang-terminal">component install aureooms/js-fft-integer</code></pre>
-<h3 id="bower">bower</h3>
-<pre><code class="lang-terminal">bower install aureooms-js-fft-integer</code></pre>
-<h3 id="ender">ender</h3>
-<pre><code class="lang-terminal">ender add aureooms-js-fft-integer</code></pre>
-<h3 id="jam">jam</h3>
-<pre><code class="lang-terminal">jam install aureooms-js-fft-integer</code></pre>
-<h3 id="spm">spm</h3>
-<pre><code class="lang-terminal">spm install aureooms-js-fft-integer --save</code></pre>
-<h3 id="npm">npm</h3>
-<pre><code class="lang-terminal">npm install aureooms-js-fft-integer --save</code></pre>
-<h2 id="require">Require</h2>
-<h3 id="jspm">jspm</h3>
-<pre><code class="lang-js"><span class="hljs-keyword">let</span> fftinteger = <span class="hljs-built_in">require</span>( <span class="hljs-string">"github:aureooms/js-fft-integer"</span> ) ;
-<span class="hljs-comment">// or</span>
-<span class="hljs-keyword">import</span> fftinteger <span class="hljs-keyword">from</span> <span class="hljs-string">'aureooms-js-fft-integer'</span> ;</code></pre>
-<h3 id="duo">duo</h3>
-<pre><code class="lang-js"><span class="hljs-keyword">let</span> fftinteger = <span class="hljs-built_in">require</span>( <span class="hljs-string">"aureooms/js-fft-integer"</span> ) ;</code></pre>
-<h3 id="component-ender-spm-npm">component, ender, spm, npm</h3>
-<pre><code class="lang-js"><span class="hljs-keyword">let</span> fftinteger = <span class="hljs-built_in">require</span>( <span class="hljs-string">"aureooms-js-fft-integer"</span> ) ;</code></pre>
-<h3 id="bower">bower</h3>
-<p>The script tag exposes the global variable <code>fftinteger</code>.</p>
-<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"bower_components/aureooms-js-fft-integer/js/dist/fft-integer.min.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span></code></pre>
-<p>Alternatively, you can use any tool mentioned <a href="http://bower.io/docs/tools/">here</a>.</p>
-<h3 id="jam">jam</h3>
-<pre><code class="lang-js"><span class="hljs-built_in">require</span>( [ <span class="hljs-string">"aureooms-js-fft-integer"</span> ] , <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> fftinteger </span>) </span>{ ... } ) ;</code></pre></div></div></div></div></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl">
+  <title data-ice="title">Home | @aureooms/js-fft-integer</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<link rel="stylesheet" href="./inject/css/0-style.css"><script src="./inject/script/0-header.js"></script><meta name="description" content="Integer Fast Fourier Transform code bricks for JavaScript"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="@aureooms/js-fft-integer"><meta property="twitter:description" content="Integer Fast Fourier Transform code bricks for JavaScript"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/aureooms/js-fft-integer.git"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-_fft">_fft</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-_ifft">_ifft</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="-a-href--https---aureooms-github-io-js-fft-integer---aureooms-js-fft-integer--a-"><a href="https://aureooms.github.io/js-fft-integer">@aureooms/js-fft-integer</a></h1><p>Integer Fast Fourier Transform algorithms for JavaScript.
+See <a href="https://aureooms.github.io/js-fft-integer">docs</a>.
+Parent is <a href="https://github.com/aureooms/js-algorithms">@aureooms/js-algorithms</a>.</p>
+<p><a href="https://raw.githubusercontent.com/aureooms/js-fft-integer/master/LICENSE"><img src="https://img.shields.io/github/license/aureooms/js-fft-integer.svg" alt="License"></a>
+<a href="https://www.npmjs.org/package/@aureooms/js-fft-integer"><img src="https://img.shields.io/npm/v/@aureooms/js-fft-integer.svg" alt="Version"></a>
+<a href="https://travis-ci.org/aureooms/js-fft-integer/branches"><img src="https://img.shields.io/travis/aureooms/js-fft-integer/master.svg" alt="Build"></a>
+<a href="https://david-dm.org/aureooms/js-fft-integer"><img src="https://img.shields.io/david/aureooms/js-fft-integer.svg" alt="Dependencies"></a>
+<a href="https://david-dm.org/aureooms/js-fft-integer?type=dev"><img src="https://img.shields.io/david/dev/aureooms/js-fft-integer.svg" alt="Dev dependencies"></a>
+<a href="https://github.com/aureooms/js-fft-integer/issues"><img src="https://img.shields.io/github/issues/aureooms/js-fft-integer.svg" alt="GitHub issues"></a>
+<a href="https://www.npmjs.org/package/@aureooms/js-fft-integer"><img src="https://img.shields.io/npm/dm/@aureooms/js-fft-integer.svg" alt="Downloads"></a></p>
+<p><a href="https://codeclimate.com/github/aureooms/js-fft-integer/issues"><img src="https://img.shields.io/codeclimate/issues/aureooms/js-fft-integer.svg" alt="Code issues"></a>
+<a href="https://codeclimate.com/github/aureooms/js-fft-integer/trends/churn"><img src="https://img.shields.io/codeclimate/maintainability/aureooms/js-fft-integer.svg" alt="Code maintainability"></a>
+<a href="https://codecov.io/gh/aureooms/js-fft-integer"><img src="https://img.shields.io/codecov/c/gh/aureooms/js-fft-integer/master.svg" alt="Code coverage (cov)"></a>
+<a href="https://codeclimate.com/github/aureooms/js-fft-integer/trends/technical_debt"><img src="https://img.shields.io/codeclimate/tech-debt/aureooms/js-fft-integer.svg" alt="Code technical debt"></a>
+<a href="http://aureooms.github.io/js-fft-integer//source.html"><img src="http://aureooms.github.io/js-fft-integer//badge.svg" alt="Documentation"></a>
+<a href="https://bundlephobia.com/result?p=@aureooms/js-fft-integer"><img src="https://img.shields.io/bundlephobia/minzip/@aureooms/js-fft-integer" alt="Package size"></a></p>
+<h2 id="related">Related</h2><ul>
+<li><a href="https://github.com/aureooms/js-fft">@aureooms/js-fft</a></li>
+</ul>
+</div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

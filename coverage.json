@@ -1,0 +1,21 @@
+{
+  "coverage": "0%",
+  "expectCount": 2,
+  "actualCount": 0,
+  "files": {
+    "src/fft.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        2
+      ]
+    },
+    "src/ifft.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        2
+      ]
+    }
+  }
+}
