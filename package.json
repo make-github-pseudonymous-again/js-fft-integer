@@ -48,5 +48,18 @@
     "np": "6.2.1",
     "nyc": "15.0.1"
   },
-  "main": "js/dist/fft-integer.js"
+  "main": "js/dist/fft-integer.js",
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-async-generator-functions"
+    ],
+    "env": {
+      "development": {
+        "sourceMaps": "inline"
+      }
+    }
+  }
 }
