@@ -1,5 +1,5 @@
 
-const _ifft = function ( p , inv2 , root , unzip ) {
+export default function _ifft ( p , inv2 , root , unzip ) {
 
 	const ifft = function ( l , m , u , ui , uj , v , vi , vj ) {
 
@@ -40,6 +40,5 @@ const _ifft = function ( p , inv2 , root , unzip ) {
 
 	return ifft ;
 
-} ;
+}
 
-exports.ifft = ifft ;
