@@ -4,7 +4,7 @@
   "homepage": "http://aureooms.github.io/js-fft-integer/",
   "scripts": {
     "test": "ava",
-    "build": "./node_modules/.bin/aureooms-node-package-build",
+    "build": "rm -rf lib && babel src -d lib",
     "esdoc": "esdoc"
   },
   "author": "aureooms",
@@ -48,7 +48,7 @@
     "np": "6.2.1",
     "nyc": "15.0.1"
   },
-  "main": "js/dist/fft-integer.js",
+  "main": "lib/index.js",
   "babel": {
     "presets": [
       "@babel/preset-env"
