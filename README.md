@@ -1,8 +1,8 @@
-[@aureooms/js-fft-integer](https://aureooms.github.io/js-fft-integer)
+[@aureooms/js-fft-integer](https://make-github-pseudonymous-again.github.io/js-fft-integer)
 ==
 
 Integer Fast Fourier Transform algorithms for JavaScript.
-See [docs](https://aureooms.github.io/js-fft-integer).
+See [docs](https://make-github-pseudonymous-again.github.io/js-fft-integer).
 Parent is [@aureooms/js-algorithms](https://github.com/aureooms/js-algorithms).
 
 [![License](https://img.shields.io/github/license/aureooms/js-fft-integer.svg)](https://raw.githubusercontent.com/aureooms/js-fft-integer/master/LICENSE)
@@ -17,7 +17,7 @@ Parent is [@aureooms/js-algorithms](https://github.com/aureooms/js-algorithms).
 [![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-fft-integer.svg)](https://codeclimate.com/github/aureooms/js-fft-integer/trends/churn)
 [![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-fft-integer/master.svg)](https://codecov.io/gh/aureooms/js-fft-integer)
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-fft-integer.svg)](https://codeclimate.com/github/aureooms/js-fft-integer/trends/technical_debt)
-[![Documentation](http://aureooms.github.io/js-fft-integer//badge.svg)](http://aureooms.github.io/js-fft-integer//source.html)
+[![Documentation](http://make-github-pseudonymous-again.github.io/js-fft-integer//badge.svg)](http://make-github-pseudonymous-again.github.io/js-fft-integer//source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-fft-integer)](https://bundlephobia.com/result?p=@aureooms/js-fft-integer)
 
 ## Related
