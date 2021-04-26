@@ -27,7 +27,7 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/aureooms/js-fft-integer/issues"
+    "url": "https://github.com/make-github-pseudonymous-again/js-fft-integer/issues"
   },
   "dependencies": {},
   "devDependencies": {
@@ -63,7 +63,7 @@
   "license": "AGPL-3.0",
   "main": "lib/index.js",
   "repository": {
-    "url": "https://github.com/aureooms/js-fft-integer.git",
+    "url": "https://github.com/make-github-pseudonymous-again/js-fft-integer.git",
     "type": "git"
   },
   "scripts": {
